@@ -18,4 +18,12 @@ public class Person3 {
 	}
 
 
+	public int getAge(){
+		return this.age;
+	}
+
+	public void setAge(int age) {
+		this.age=age;
+	}
+
 }
