@@ -36,14 +36,3 @@ public void select(String name,String password) {
 	}
  }
 }
-
-public void selectA11() {
-	DBConnector db = new DBConnector();
-	Connection con = db.getConnection();
-
-	String sql ="select * from test_table";
-	try {
-		PreparedStatement ps =
-	}
-}
-
